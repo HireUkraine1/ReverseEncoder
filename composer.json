@@ -3,6 +3,7 @@
     "description": "Laravel package for reversible encryption, based on OpenSSL using AES-128-CBC ",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/HireUkraine1/ReverseEncoder",
     "keywords": [
         "laravel",
         "encryption",
