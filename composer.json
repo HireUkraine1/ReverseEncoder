@@ -1,6 +1,6 @@
 {
     "name": "hireukraine/reverse-encoder",
-    "description": "Service of reversible encryption, based on OpenSSL using AES-128-CBC",
+    "description": "Laravel package for reversible encryption, based on OpenSSL using AES-128-CBC ",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,6 +9,7 @@
         "AES-128-CBC",
         "OpenSSL"
     ],
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Hire Ukraine",
