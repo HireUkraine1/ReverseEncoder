@@ -1,0 +1,38 @@
+{
+    "name": "hireukraine/reverse-encoder",
+    "description": "Service of reversible encryption, based on OpenSSL using AES-128-CBC",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "encryption",
+        "AES-128-CBC",
+        "OpenSSL"
+    ],
+    "authors": [
+        {
+            "name": "Hire Ukraine",
+            "email": "dm@hireukraine.me"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "laravel/framework": "~5.3.0|~5.4.0|~5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~5.0|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HireUkraine\\ReversibleEncryption\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HireUkraine\\ReversibleEncryption\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
