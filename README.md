@@ -11,7 +11,7 @@ You can install the package via composer:
 ```
 Add to the providers array in config/app.php
 ```php
-HireUkraine\ReversibleEncryption::class,
+HireUkraine\ReversibleEncryption\ReverseEncoderProvider::class,
 ```
 ### Support
 [hireukraine](http://hireukraine.me/)
